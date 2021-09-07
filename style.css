@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-section{
+    background-image: url(photos/banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-manu{
+    display: flex;
+
+}
+.logo{
+    padding: 5px;
+}
+.exp-1{
+    display: none;
+
+}
+.exp-2{
+    display: none;
+
+}
+.nev-manu{
+    display: flex;
+   margin-top: 40px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.home,.nev-manu a:hover{
+    background-color: rgb(42, 231, 222);
+    border-radius: 50px;
+    color: white;
+}
+
+.nev-manu a{
+    color: white;
+    text-decoration: none;
+    padding: 6px 20px;
+ 
+    margin: 4px;
+   
+}
+.search-icon{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.heading-1{
+    font-size: 5rem;
+    color: rgb(42, 231, 222);
+}
+.heading-2{
+    font-size: 6rem;
+    
+    text-align:center;
+    margin: 30px;
+    color: white;
+    
+}
+.discription{
+    font-size: 18px;
+}
+.music-btn{
+    width: 220px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 100px;
+}
+.music-btn:hover{
+    background-color: rgb(42, 231, 222);
+}
+
+/* about section css */
+.about-section {
+    margin-top: 80px;
+    background-image: url(photos/abt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle-sec{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.circle-div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 5px;
+    
+  
+}
+.about-headanddes{
+   margin: 30px;
+}
+.about-head{
+    font-size: 3rem;
+}
+.about-des{
+  font-size: 17px;
+  
+}
+.read-btn{
+    border: none;
+    background-color: black;
+    width: 150px;
+    padding: 5px ;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.read-btn:hover{
+    background-color: rgb(42, 231, 222);
+}
+.concerts-section{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.concert-img{
+    box-sizing: border-box;
+    width: 100%;
+}
+.gallary{
+  margin-right: 10px;
+}
+.gellary-img{
+display: flex;
+margin-left: 5px;
+}
+.gellary-pic{
+    box-sizing: border-box;
+     padding: 5px;
+    width: 50%;
+}
+.contact-section{
+    background-color: black;
+    transition:2s  ease-in-out;
+  
+}
+.contact-section:hover{
+    transform: translate(0) 
+}
+.contact-head {
+ padding-top: 50px;
+    font-size: 5rem;
+}
+.input-element{
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    
+}
+.hr-line{
+    background-color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.subscribe-div{
+    justify-content: center;
+    justify-items: center;
+}
+.newslatter{
+    box-sizing: border-box;
+    margin-left: 20%;
+    font-size: 21px;
+}
+.subscribe-input{
+    border: none;
+    width: 450px;
+    height: 40px;
+}
+.subscribe-btn{
+    font-size: 19px;
+    border: none;
+ width: 150px;
+    height: 40px;
+}
+.subscribe-btn:hover{
+    background-color:rgb(42, 231, 222) ;
+}
+.location-sec{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.location{
+    margin: 5px;
+   
+}
+.location-p{
+    margin: 10px;
+}
+.circle-div-shortcut{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(42, 231, 222);
+    margin: 5px;
+    
+}
+
+/* for tab */
+@media screen and (max-width:950px){
+    .search-icon{
+        display: none;
+    }
+    .logo-manu{
+        display: block;
+ 
+    }
+    .logo{
+        display: block;
+    margin: 0 auto;
+    }
+    .nev-manu{
+        justify-content: center;
+        justify-items: center;
+        font-size: 15px;
+    }
+    .nev-manu a{
+        color: white;
+        text-decoration: none;
+        padding: 4px 18px;
+     
+        margin: 3px;
+       
+    }
+    .subscribe-input{
+        border: none;
+        width: 400px;
+        height: 40px;
+    }
+    .subscribe-btn{
+        font-size: 19px;
+        border: none;
+     width: 130px;
+        height: 40px;
+    }
+}
+/* for small devices */
+@media screen and (max-width:600px){
+    .nav-section{
+        padding: 5px;
+    
+       
+    }
+
+    .nev-manu{
+        
+        background-color: cadetblue;
+        margin-left:0 ;
+        justify-content: center;
+        justify-items: center; 
+        display: none;
+      
+    }
+   .nev-li{
+    box-sizing: border-box;
+    width: 100%;
+       text-align: center;
+        display: flex;
+   flex-direction: column;
+     
+       
+    }
+    .nev-manu a{
+        margin: 2px;
+        background-color: black;
+    }
+    .nev-manu a:hover{
+        border-radius: 5px;
+        background-color: coral;
+    }
+    .home{
+        
+      
+       border-radius: 5px;
+       background-color: cornsilk;
+    }
+ 
+    .gellary-pic{
+        box-sizing: border-box;
+     width: 100%;
+justify-content: center;
+justify-items: center;
+    }
+    .gellary-img{
+        flex-direction: column;
+      
+    }
+    .location-sec{
+   display: block;
+     
+    }
+    .location{
+      align-items: center;
+      justify-content: center;
+    }
+    .subscribe-input{
+        border: none;
+        width: 250px;
+        height: 40px;
+    }
+    .subscribe-btn{
+        font-size: 19px;
+        border: none;
+     width: 120px;
+        height: 40px;
+    }
+    .exp-1{
+        display: block;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .exp-2{
+        cursor: pointer;
+        font-size: 25px;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 45px;
+        background-color: white;
+        text-align: center;
+    }
+}
+/* 
+for about page */
+.about-page-head{
+    font-size: 5rem;
+    background-color: rgb(42, 231, 222);
+    text-align: center;
+    padding: 10px;
+}

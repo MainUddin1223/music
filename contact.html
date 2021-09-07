@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="  nav-section py-2">
+   <div class=" logo-manu">
+    <div class="logo">
+        <img class="logo" src="photos/logo.png" alt="">
+    </div>
+    <img src="photos/menu_icon.png" alt="" class="exp-1" id="exp10">
+    <p class="exp-2 " id="nono">X</p>
+    <div class="nev-manu" id="exp12">
+    
+        
+     <div class="nev-li my-1" >
+        
+        <a class="text-white" href="index.html">Home </a>
+            <a class="" href="about.html">About </a>
+                <a class="" href="concert.html">Concerts </a>
+                    <a  class="" href="gallery.html"> Gallery </a>
+                        <a class="home" href="#">Contact </a>
+                             <a class="" href="#"> Login </a>
+     </div>
+        
+    </div>
+    <div class="search-icon "><img src="photos/search.png" alt=""></div>
+   </div>
+
+
+
+</div>
+<div class="about-page">
+    <h1 class="about-page-head my-4">Contact</h1>
+</div>
+<!-- contact-section -->
+<div class=" contact-section ">
+
+    <h1 class=" contact-head text-center text-white my-4">Contact us</h1>
+<div class="input-section text-center">
+     <input class="input-element my-2" type="text" placeholder="Enter your name">
+     <input class="input-element my-2"  type="text" placeholder="Enter your mail">
+     <input class="input-element my-2"  type="text" placeholder="Enter your address">
+     <textarea  class="input-element my-2" name="" id="" cols="5" rows="4" placeholder=" Comment here"></textarea>
+ 
+</div>
+<div class="text-center">
+    <button class="bg-white read-btn my-4 gallery-btn">Send</button>
+</div>
+
+  
+<hr class="hr-line my-5">
+<div class="news-div">
+    <div class="d-block m-auto">
+        <p class="text-white newslatter">Newsletter</p>
+    <div class="subscribe-div d-flex text-center">
+        <div class="">
+        <input class="p-2 subscribe-input" type="text" placeholder="Enter your email">
+    </div>
+        <div class="div">
+        <button class="subscribe-btn">Subscribe</button>
+    </div>
+    </div>
+    
+
+</div>
+
+
+<div class="location-sec  my-5">
+
+<div class="location d-flex text-white">
+    <img src="photos/loc.png" alt="">
+    <p class="location-p">Locations</p>
+</div>
+<div class="location d-flex text-white ">
+    <img src="photos/Call.png" alt="">
+    <p class="location-p">8801852902208</p>
+</div>
+<div class="location d-flex text-white">
+    <img src="photos/email.png" alt="">
+    <p class="mx-1 location-p">demp@gmail.com</p>
+</div>
+</div>
+
+<div class="circle-sec  ">
+    <a href="#">  <div class="circle-div-shortcut"></div></a>
+    <a href="#"> <div class="circle-div-shortcut"></div></a>
+    <a href="#"><div class="circle-div-shortcut"></div></a>
+    <a href="#"><div class="circle-div-shortcut"></div></a>
+</div>
+<hr class="hr-line my-5">
+<p class="text-white text-center py-3">Copyright 2019 All Right Reserved By Free html Templates</p>
+</div>
+
+
+
+
+       <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script>
+       const clickPic=document.getElementById("exp10");
+       clickPic.addEventListener("click",function(){
+           const visiblePage=document.getElementById("exp12");
+           visiblePage.style.display="block";
+           visiblePage.style.transition="2s",  "ease-in-out";
+           const exBtn=document.getElementById("nono");
+           exBtn.style.display="block";
+           clickPic.style.display="none";
+           
+       })
+       const vanish=document.getElementById("nono");
+       vanish.addEventListener("click",function(){
+           const vanishPage=document.getElementById("exp12");
+           vanishPage.style.display="none";
+           vanish.style.display="none";
+           const appperBtn=document.getElementById("exp10");
+           appperBtn.style.display="block";
+           console.log("152")
+
+       })
+   </script>
+</body>
+</html>
