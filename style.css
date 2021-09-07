@@ -34,6 +34,7 @@
     background-color: rgb(42, 231, 222);
     border-radius: 50px;
     color: white;
+    text-decoration: none;
 }
 
 .nev-manu a{
@@ -72,6 +73,10 @@
 }
 .music-btn:hover{
     background-color: rgb(42, 231, 222);
+   
+}
+.music-btn:focus{
+    outline: none; 
 }
 
 /* about section css */
@@ -114,9 +119,14 @@
     font-size: 20px;
     border-radius: 50px;
     margin-left: 10px;
+    
 }
 .read-btn:hover{
     background-color: rgb(42, 231, 222);
+  
+}
+.read-btn:focus{
+    outline: none; 
 }
 .concerts-section{
     margin-top: 150px;
@@ -278,6 +288,18 @@ margin-left: 5px;
         border-radius: 5px;
         background-color: coral;
     }
+    .heading-1{
+        font-size: 3rem;
+        color: rgb(42, 231, 222);
+    }
+    .heading-2{
+        font-size: 4rem;
+        
+        text-align:center;
+        margin: 30px;
+        color: white;
+        
+    }
     .home{
         
       
@@ -332,6 +354,7 @@ justify-items: center;
         text-align: center;
     }
 }
+
 /* 
 for about page */
 .about-page-head{
