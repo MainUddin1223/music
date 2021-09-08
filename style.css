@@ -137,14 +137,14 @@
     width: 100%;
 }
 .gallary{
-  margin-right: 10px;
+ 
 }
 .gellary-img{
 display: flex;
-margin-left: 5px;
+
 }
 .gellary-pic{
-    box-sizing: border-box;
+   
      padding: 5px;
     width: 50%;
 }
