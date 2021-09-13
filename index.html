@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
@@ -38,7 +39,7 @@
     <div class="search-icon "><img src="photos/search.png" alt=""></div>
    </div>
 
-    <div class="heading text-center my-5">
+    <div class="heading text-center my-5 " data-aos="fade-left">
         <h2 class="heading-1 my-5">THE BEST</h2>
         <h1 class="heading-2  px-4">MUSIC BRAND EVER</h1>
     </div>
@@ -47,8 +48,8 @@
     </div>
 
     <div class="button-div text-center">
-        <button class="p-2 music-btn">Music & Entertainment</button>
-        <button class="p-2 m-1 music-btn">Buy Tickets</button>
+        <button class="p-2 music-btn" data-aos="fade-left">Music & Entertainment</button>
+        <button class="p-2 m-1 music-btn"data-aos="fade-right" >Buy Tickets</button>
     </div>
 
 </div>
@@ -59,7 +60,7 @@
         <div class="circle-div"></div>
     </div>
     <div class="row container-fluid">
-        <div class="col-md-6">
+        <div class="col-md-6"  data-aos="fade-left">
             <div class=" text-justify about-headanddes">
             <h1 class="my-2 about-head">About Us</h1>
             <p class="about-des">
@@ -70,7 +71,7 @@
     </div>
         <div class="col-md-6 ">
             <div class="">
-                <img class="img-fluid d-block m-auto" src="photos/about.png"  alt="">
+                <img class="img-fluid d-block m-auto" data-aos="zoom-out" src="photos/about.png"  alt="">
             </div>
         </div>
     </div>
@@ -91,7 +92,7 @@
           </div>
         </div>
         <div class="col-md-7">
-            <img src="photos/gallery2.jpg" alt="" class="img-fluid concert-img">
+            <img src="photos/gallery2.jpg" alt="" class="img-fluid concert-img" data-aos="zoom-out">
         </div>
     </div>
 </div>
@@ -102,7 +103,7 @@
 <div class="gallery-section">
     <div class="row container-fluid">
         <div class="col-md-7">
-            <div class="gallary">
+            <div class="gallary" data-aos="zoom-out">
 
                         <div class=" gellary-img ">
                             <img class="img-fluid gellary-pic" src="photos/gallery1.jpg" alt="">
@@ -133,11 +134,11 @@
 <div class=" contact-section ">
 
     <h1 class=" contact-head text-center text-white my-4">Contact us</h1>
-<div class="input-section text-center">
-     <input class="input-element my-2" type="text" placeholder="Enter your name">
-     <input class="input-element my-2"  type="text" placeholder="Enter your mail">
-     <input class="input-element my-2"  type="text" placeholder="Enter your address">
-     <textarea  class="input-element my-2" name="" id="" cols="5" rows="4" placeholder=" Comment here"></textarea>
+<div class="input-section text-center" >
+     <input class="input-element my-2" data-aos="fade-left"  type="text" placeholder="Enter your name">
+     <input class="input-element my-2" data-aos="fade-right"   type="text" placeholder="Enter your mail">
+     <input class="input-element my-2" data-aos="flip-down"  type="text" placeholder="Enter your address">
+     <textarea  class="input-element my-2" data-aos="flip-up" name="" id="" cols="5" rows="4" placeholder=" Comment here"></textarea>
  
 </div>
 <div class="text-center">
@@ -196,6 +197,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
    <script>
        const clickPic=document.getElementById("exp10");
        clickPic.addEventListener("click",function(){
