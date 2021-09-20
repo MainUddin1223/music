@@ -1,7 +1,11 @@
 *{
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    overflow-x: hidden;
 }
 .nav-section{
     background-image: url(photos/banner2.jpg);
@@ -26,6 +30,8 @@
 }
 .nev-manu{
     display: flex;
+    position: absolute;
+    right: 10%;
    margin-top: 40px;
     margin-left: 10px;
     font-size: 18px;
@@ -46,7 +52,8 @@
    
 }
 .search-icon{
-    margin-left: 10px;
+    position: absolute;
+    right: 4%;
     margin-top: 40px;
 }
 .heading-1{
@@ -223,15 +230,18 @@ display: flex;
     }
     .logo-manu{
         display: block;
- 
+
     }
     .logo{
-        display: block;
+    display: block;
     margin: 0 auto;
     }
     .nev-manu{
-        justify-content: center;
-        justify-items: center;
+    
+        left: 0;
+        right: 0;
+       display: flex;  
+       justify-content: center;
         font-size: 15px;
     }
     .nev-manu a{
@@ -241,6 +251,9 @@ display: flex;
      
         margin: 3px;
        
+    }
+    .heading-1{
+        padding-top: 30px;
     }
     .subscribe-input{
         border: none;
@@ -299,6 +312,9 @@ display: flex;
         margin: 30px;
         color: white;
         
+    }
+    .music-btn{
+        margin-bottom: 25px;
     }
     .home{
         
